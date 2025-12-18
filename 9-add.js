@@ -1,7 +1,10 @@
-const add = function (num1, num2){
+const num1 = Number(process.argv[2]); 
+const num2 = Number(process.argv[3]); 
+
+const add = function (a, b){
     return num1 + num2; 
 }
 
-const result = add(5, 5); 
-console.log(result); 
+console.log(add(num1, num2)); 
+
 
